@@ -1,0 +1,79 @@
+@font-face {
+  font-family: expressway;
+  src: url("https://use.typekit.net/af/75a0f0/00000000000000000000d3d4/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/75a0f0/00000000000000000000d3d4/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/75a0f0/00000000000000000000d3d4/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: expressway;
+  src: url("https://use.typekit.net/af/2effa8/00000000000000000000d641/27/l?subset_id=2&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/2effa8/00000000000000000000d641/27/d?subset_id=2&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/2effa8/00000000000000000000d641/27/a?subset_id=2&fvd=n7&v=3") format("opentype");
+  font-style: normal;
+  font-weight: 700; }
+.container {
+  background-color: #d3360b;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px; }
+
+.header {
+  margin-top: 0px;
+  color: #d3360b;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 1.1;
+  font-family: "expressway", "Helvetiva Neue", Helvetica, sans-serif; }
+
+.subheader {
+  display: block;
+  font-size: 30px;
+  color: #444;
+  font-weight: bold;
+  letter-spacing: 3px; }
+
+.stripe {
+  background-color: #d3360b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0; }
+
+.signature {
+  padding-right: 40px;
+  margin-bottom: 40px;
+  text-align: right; }
+
+.love {
+  background-color: #fff; }
+
+img {
+  width: 140px; }
+
+footer {
+  color: #d3360b; }
+
+a {
+  color: #d3360b; }
+
+b {
+  color: #fff; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  font-family: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif; }
+
+h1 {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 0px; }
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 1.5em; }
+
+/*# sourceMappingURL=styles.css.map */

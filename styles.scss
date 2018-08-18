@@ -1,0 +1,110 @@
+// variables
+$ruby-red: #d3360b; 
+$snow-white: #fff;
+$elephant-grey: #444;
+$coffee-black: #000;
+$font-header: "expressway", 'Helvetiva Neue', Helvetica, sans-serif;
+$font-text: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; 
+@font-face { 
+
+  font-family: expressway; src: url("https://use.typekit.net/af/75a0f0/00000000000000000000d3d4/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/75a0f0/00000000000000000000d3d4/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/75a0f0/00000000000000000000d3d4/27/a?subset_id=2&fvd=n4&v=3") format("opentype"); font-style: normal; font-weight: 400; 
+}
+
+@font-face { 
+
+  font-family: expressway; src: url("https://use.typekit.net/af/2effa8/00000000000000000000d641/27/l?subset_id=2&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/2effa8/00000000000000000000d641/27/d?subset_id=2&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/2effa8/00000000000000000000d641/27/a?subset_id=2&fvd=n7&v=3") format("opentype"); font-style: normal; font-weight: 700;
+}
+
+.container {
+
+  background-color: $ruby-red;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+
+.header {
+
+  margin-top: 0px;
+  color: $ruby-red;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 1.1;
+  font-family: $font-header; 
+}
+
+.subheader {
+
+  display: block;
+  font-size: 30px;
+  color: $elephant-grey;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.stripe {
+
+  background-color: $ruby-red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.signature {
+
+  padding-right: 40px;
+  margin-bottom: 40px;
+  text-align: right;
+}
+
+.love {
+  background-color: $snow-white;
+}
+
+
+img {
+
+  width: 140px;  
+}
+
+footer {
+
+  color: $ruby-red;
+}
+
+a {
+
+  color: $ruby-red;
+}
+
+b {
+  color: $snow-white;
+}
+
+body, html {
+
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: $snow-white;
+  font-family: $font-text; 
+}
+
+h1 {
+
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 0px; 
+}
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 1.5em;
+}
+
