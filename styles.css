@@ -36,7 +36,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 0; }
+  padding: 40px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 .signature {
   padding-right: 40px;
@@ -58,11 +61,20 @@ a {
 b {
   color: #fff; }
 
-body, html {
+body {
+  margin: 0px;
+  padding-bottom: 118px;
+  position: relative;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  font-family: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif; }
+
+html {
   height: 100%;
   width: 100%;
   margin: 0px;
-  padding: 0px;
   background-color: #fff;
   font-family: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif; }
 
